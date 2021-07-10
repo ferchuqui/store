@@ -8,6 +8,8 @@ import { Product} from './product.model';
 export class AppComponent {
   title = 'Articulos';
   items = ['nicolas', 'julian', 'perez'];
+  objeto ={};
+  power = 10;
   products: Product [] = [
     {
       id: '1',
