@@ -4,6 +4,6 @@ const routes: Routes = [];
 @NgModule({
   imports: [RouterModule.forChild(routes),
   ],
-  e
+  exports: [RouterModule],
 })
 export class HomeRoutingModule {}
